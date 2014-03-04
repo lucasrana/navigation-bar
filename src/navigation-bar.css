@@ -35,9 +35,7 @@
 
 .navigation-bar {
   extend: %navigation-bar;
-  height: var(height--large);
-  padding-left: var(padding--navigation-bar);
-  padding-right: var(padding--navigation-bar);
+  padding: var(padding--navigation-bar);
   background: var(background-color);
   color: var(color--navigation-bar);
   box-shadow: var(box-shadow--navigation-bar);
@@ -47,7 +45,6 @@
 .navigation-bar__item {
   extend: %navigation-bar__item;
   margin: var(margin);
-  line-height: var(line-height--large);
   vertical-align: top;
 }
 
